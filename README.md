@@ -1,7 +1,6 @@
 # Pal Player
 
-Hey! This is my project — a small music player, about the size of a keychain. I designed the whole thing myself, the PCB, the parts, everything.
-
+Hey! This is my project — a small music player, about the size of a keychain.
 It plays music in two ways. You can connect your phone to it with Bluetooth and play songs like a normal speaker, or you can put MP3 songs on a microSD card and it plays them on its own, no phone needed.
 
 ## What it can do
@@ -14,7 +13,7 @@ It plays music in two ways. You can connect your phone to it with Bluetooth and 
 - A red light while charging, green when the battery is full
 - A slide switch to fully turn it off
 
-## How it works (simple version)
+## How it works 
 
 The ESP32 chip is the brain of the player. It gets the music — either from Bluetooth or from the SD card — and sends it to a small amplifier chip (MAX98357A), which makes it loud enough for the speaker. The battery is a 600mAh LiPo, and a TP4056 chip handles the charging from USB-C. Another small chip (AP2112) gives the ESP32 a clean 3.3V to run on.
 
