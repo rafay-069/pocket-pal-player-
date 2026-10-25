@@ -32,25 +32,22 @@ The ESP32 chip is the brain of the player. It gets the music — either from Blu
 ## Parts list (BOM)
 
 52 parts are soldered on the board. The speaker and battery are not soldered — they plug in with small connectors.
-
-- **ESP32-WROOM-32E** ×1 — the brain, Bluetooth + runs everything
-- **MAX98357A** ×1 — amplifier, makes the sound loud
-- **TP4056** ×1 — charges the battery
-- **AP2112K-3.3** ×1 — makes 3.3V power for the ESP32
-- **1.3 inch OLED screen (SH1106)** ×1 — shows the song name
-- **USB-C port (GCT USB4105)** ×1 — for charging
-- **microSD socket** ×1 — where the memory card goes
-- **JST-PH connectors** ×2 — battery and speaker plugs
-- **Pin header 1×6** ×1 — for uploading code
-- **Small buttons (6×6mm)** ×7 — controls + boot + reset
-- **Slide switch** ×1 — power on/off
-- **LEDs (red + green)** ×2 — charging lights
-- **Resistors** ×12 — small parts that set things like charging speed and USB detection
-- **Capacitors** ×20 — smooth the power and stop button glitches
-- **Speaker 28mm 8 ohm 2W** ×1 — plugs in, plays the sound
-- **Battery 600mAh LiPo** ×1 — plugs in, powers everything
-
-If you want the full technical list with every value and footprint, it is in the BOM.csv file.
+ESP32-WROOM-32E ×1 — the brain, Bluetooth + runs everything
+MAX98357A ×1 — amplifier, makes the sound loud
+TP4056 ×1 — charges the battery
+AP2112K-3.3 ×1 — makes 3.3V power for the ESP32
+1.3 inch OLED screen (SH1106) ×1 — shows the song name
+USB-C port (GCT USB4105) ×1 — for charging
+microSD socket ×1 — where the memory card goes
+JST-PH connectors ×2 — battery and speaker plugs
+Pin header 1×6 ×1 — for uploading code
+Small buttons (6×6mm) ×7 — controls + boot + reset
+Slide switch ×1 — power on/off
+LEDs (red + green) ×2 — charging lights
+Resistors ×12 — small parts that set things like charging speed and USB detection
+Capacitors ×20 — smooth the power and stop button glitches
+Speaker 28mm 8 ohm 2W ×1 — plugs in, plays the sound
+Battery 600mAh LiPo ×1 — plugs in, powers everything
 
 ---
 
