@@ -31,24 +31,23 @@ The ESP32 chip is the brain of the player. It gets the music — either from Blu
 
 ## Parts list (BOM)
 
-52 parts are soldered on the board. The speaker and battery are not soldered — they plug in with small connectors.
-ESP32-WROOM-32E ×1 — the brain, Bluetooth + runs everything
-MAX98357A ×1 — amplifier, makes the sound loud
-TP4056 ×1 — charges the battery
-AP2112K-3.3 ×1 — makes 3.3V power for the ESP32
-1.3 inch OLED screen (SH1106) ×1 — shows the song name
-USB-C port (GCT USB4105) ×1 — for charging
-microSD socket ×1 — where the memory card goes
-JST-PH connectors ×2 — battery and speaker plugs
-Pin header 1×6 ×1 — for uploading code
-Small buttons (6×6mm) ×7 — controls + boot + reset
-Slide switch ×1 — power on/off
-LEDs (red + green) ×2 — charging lights
-Resistors ×12 — small parts that set things like charging speed and USB detection
-Capacitors ×20 — smooth the power and stop button glitches
-Speaker 28mm 8 ohm 2W ×1 — plugs in, plays the sound
-Battery 600mAh LiPo ×1 — plugs in, powers everything
-
+#	Component	Specifications / Package	Qty	Function
+1	ESP32-WROOM-32E	Dual-Core 240MHz, SMD Module	1	Main Microcontroller, Bluetooth Classic & Audio Decoding
+2	MAX98357A	QFN-16 / I2S Class-D Mono Amp	1	Digital Audio Amplifier (Speaker Output)
+3	TP4056	SOP-8 / ESOP-8 Linear Charger	1	Li-Ion Battery Charging Management
+4	AP2112K-3.3	SOT-23-5, 600mA Low-Dropout LDO	1	3.3V System Power Regulation
+5	1.3" OLED Display	128×64, SH1106 Driver (I2C)	1	Track Title, Status & Face UI Display
+6	USB-C Port	GCT USB4105 (16-Pin Hybrid)	1	5V Power Input & Battery Recharging
+7	MicroSD Socket	Push-Pull SMD (SPI Mode)	1	Memory Card Storage for MP3 Files
+8	JST-PH Connectors	2-Pin, 2.0mm Pitch Male Header	2	Pluggable Sockets for Battery & Speaker
+9	Pin Header 1×6	2.54mm Pitch Through-Hole	1	UART Programming & Firmware Flashing Port
+10	Tactile Push Buttons	6×6mm Momentary Switches	7	Media Controls, Volume, Boot & Reset
+11	Slide Switch	SPDT Right-Angle SMD / THT	1	Master Hardware Power ON / OFF
+12	Status LEDs	0805 SMD (Red + Green)	2	Battery Charging (CHRG) & Full (STDBY) Indicators
+13	Resistors	0805 / 0603 SMD Assorted	12	USB-C CC Pull-Downs, I2C/SPI Pull-Ups & LED Limiters
+14	Capacitors	0805 / 0603 SMD Ceramic (MLCC)	20	Power Rail Decoupling & Button Debounce Filtering
+15	Mini Speaker	28mm, 8Ω, 2W (JST-PH Harness)	1	Acoustic Audio Output (Plugs In, Not Soldered)
+16	LiPo Battery	3.7V, 600mAh (JST-PH Harness)	1	Portable System Power (Plugs In, Not Soldered)
 ---
 
 
