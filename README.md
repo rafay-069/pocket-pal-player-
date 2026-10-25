@@ -54,5 +54,5 @@ If you want the full technical list with every value and footprint, it is in the
 
 ---
 
-Made by Rafay, October 2026.
+
 # pocket-pal-player-
