@@ -51,3 +51,13 @@ The ESP32 chip is the brain of the player. It gets the music — either from Blu
 | 16 | LiPo Battery | 3.7V, 600mAh (JST-PH Harness) | 1 | Portable System Power (Plugs In, Not Soldered) |
 
 # pocket-pal-player-
+### photos 
+<img width="1118" height="711" alt="Screenshot 2026-10-25 200833" src="https://github.com/user-attachments/assets/c74aee46-f5f1-41c3-b63b-a4c1bb46a117" />
+<img width="945" height="541" alt="Screenshot 2026-10-25 200803" src="https://github.com/user-attachments/assets/9ee8f02a-26ec-48c4-acab-1944bc07fbd2" />
+<img width="925" height="613" alt="Screenshot 2026-10-25 200852" src="https://github.com/user-attachments/assets/24a0fe2e-09f9-48d0-ae12-9f86c31dbd90" />
+<img width="822" height="502" alt="Screenshot 2026-10-25 201212" src="https://github.com/user-attachments/assets/ca45a57b-23f2-46ac-b854-e8ea6817bdbe" />
+
+## model pics 
+
+<img width="331" height="203" alt="Screenshot 2026-10-25 221214" src="https://github.com/user-attachments/assets/4968d4bc-8493-40a7-b22a-052f75279f20" />
+<img width="318" height="270" alt="Screenshot 2026-10-25 221211" src="https://github.com/user-attachments/assets/ea10ad78-35d8-454c-a6b8-5d4d6868ff24" />
